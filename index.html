@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Team Drey</title>
+    <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images\favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.0.2/dist/bulma-tooltip.min.css">
@@ -15,8 +17,14 @@
     <style>
         #researchBanner {
             height: 100%;
-            background: url("https://via.placeholder.com/1660x900?text=PicWithStickyNotes") no-repeat center center fixed;
+            background: url("https://via.placeholder.com/1660x900?text=MiroBoardWithStickyNotes") no-repeat center center fixed;
             background-size: cover;
+        }
+
+        #teamBanner {
+            height: 100%;
+            background: url("images/TeamPic.jpg") no-repeat center center fixed;
+            background-size: 100%;
         }
     </style>
 </head>
@@ -59,13 +67,52 @@
             </div>
         </div>
     </section>
+    <!--Background-->
+    <section>
+        <div class="hero is-medium">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title has-text-centered">Background</h2>
+                    <div class="content">
+                        <p>The specific area that we focused on is the mistake analysis feature. With this
+                            feature, students can do Mistake Analysis Related Studies (MARS) like correcting and
+                            analyzing
+                            mistakes and reviewing related knowledge components (KC’s). This is an attempt to translate
+                            the
+                            traditional MARS experience from physical notebooks to online. </p>
+                        <p>Currently, the MARS system is mainly used as an assignment to the students:</p>
+                        <ol>
+                            <li>Teachers will assign the mistaken problems that students got in a particular class
+                                session.</li>
+                            <li>Students will practice solving those problems and bring back their revised solutions.
+                            </li>
+                            <li>Teachers will check the revised solutions and provide further feedback.</li>
+                        </ol>
+                        <p>Before the outbreak of the COVID-19 pandemic, students printed out the problem
+                            sets and completed them in school because they did not have access to the internet at
+                            school.
+                            During the COVID-19 pandemic, students can complete the assignment online at home.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Team Banner-->
+    <section>
+        <div class="hero is-medium" id="teamBanner">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title has-text-centered is-size-2 has-text-white">Meet the Team</h2>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Team Info Individual-->
-    <!--
     <section>
         <div class="hero is-small">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <h2 class="title">Meet the Team</h2>
                     <div class="columns is-centered">
                         <div class="column">
                             <figure class="image is-128x128 container">
@@ -116,8 +163,8 @@
             </div>
         </div>
     </section>
-    -->
     <!--Team Info-->
+    <!--
     <section>
         <div class="hero is-small">
             <div class="hero-body">
@@ -131,34 +178,13 @@
             </div>
         </div>
     </section>
-    <!--Background-->
-    <section>
-        <div class="hero is-medium">
-            <div class="hero-body">
-                <div class="container">
-                    <h2 class="title has-text-centered">Background</h2>
-                    <p class="content">The specific area that we focused on is the mistake analysis feature. With this
-                        feature, students can do Mistake Analysis Related Studies (MARS) like correcting and analyzing
-                        mistakes and reviewing related knowledge components (KC’s). This is an attempt to translate the
-                        traditional MARS experience from physical notebooks to online. </p>
-                    <p class="content">Currently, the MARS system is mainly used as an assignment to the students: 1.
-                        Teachers will assign the mistaken problems that students got in a particular class session 2.
-                        Students will practice solving those problems and bring back their revised solutions 3. Teachers
-                        will check the revised solutions and provide further feedback.</p>
-                    <p class="content">Before the outbreak of the COVID-19 pandemic, students printed out the problem
-                        sets and completed them in school because they did not have access to the internet at school.
-                        During the COVID-19 pandemic, students can complete the assignment online at home.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    -->
     <!--Research Phase Banner-->
     <section>
         <div class="hero is-medium" id="researchBanner">
             <div class="hero-body">
                 <div class="container">
-                    <h2 class="title has-text-centered is-size-2">Research Phase</h2>
+                    <h2 class="title has-text-centered is-size-2 has-text-white">Research Phase</h2>
                 </div>
             </div>
         </div>
@@ -228,14 +254,193 @@
                         <image class="has-ratio" width="640" height="360"
                             src="https://via.placeholder.com/640x360?text=StudentExperienceMap"></image>
                     </figure>
-
+                    <div class="content">
+                        <p>We used an affinity diagram to code and group similar ideas from the interviews in a
+                            bottom-up process. From this affinity diagram, we’ve gained the following insights:</p>
+                        <ul>
+                            <li>Students don't have the ability to reason and categorize mistakes</li>
+                            <li>Current online-offline integration still needs improvements as online is deemed not
+                                effective enough</li>
+                            <li>Students lack motivation and are not interested and mistake analysis notebook becomes a
+                                formality</li>
+                        </ul>
+                    </div>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=AffinityDiagram(Experts)"></image>
+                    </figure>
+                    <h3 class="is-size-4 has-text-centered">Understanding Students</h3>
+                    <div class="content">
+                        <p>We conducted interviews with 6 students, grade levels vary from 7th grade to 10th grade,
+                            Generally rank in the middle of the class, to understand their learning process and the pain
+                            points they have during their online learning.
+                        </p>
+                        <p>Based on the raw data we acquired from our users, we developed an identity model to reveal
+                            the identity and behaviors of our learners. The model is divided into 4 sections: I am, I
+                            like, I do, and I struggle.
+                        </p>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <figure class="image is-16by9" style="margin-bottom: 2em">
+                                <image class="has-ratio" width="640" height="360"
+                                    src="https://via.placeholder.com/640x360?text=IdentityModel1(Students)"></image>
+                            </figure>
+                            <figure class="image is-16by9" style="margin-bottom: 2em">
+                                <image class="has-ratio" width="640" height="360"
+                                    src="https://via.placeholder.com/640x360?text=IdentityModel2(Students)"></image>
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-16by9" style="margin-bottom: 2em">
+                                <image class="has-ratio" width="640" height="360"
+                                    src="https://via.placeholder.com/640x360?text=IdentityModel3(Students)"></image>
+                            </figure>
+                            <figure class="image is-16by9" style="margin-bottom: 2em">
+                                <image class="has-ratio" width="640" height="360"
+                                    src="https://via.placeholder.com/640x360?text=IdentityModel4(Students)"></image>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>From the identity model, we generalized these insights that suggest the potential challenges
+                            and opportunities that can be considered in ideation.
+                        </p>
+                        <ul>
+                            <li>Students need clear explanations to tackle misconceptions and learn better
+                                problem-solving strategies.</li>
+                            <li>Internet access and synchronization with knowledge at school are the barriers to combine
+                                online and offline study.</li>
+                            <li>System cannot identify the problems that a student has already mastered.</li>
+                            <li>Certain features are not used fully.</li>
+                            <li>Students have limited ability to do mistake reasoning on their own.</li>
+                        </ul>
+                    </div>
+                    <h3 class="is-size-4 has-text-centered">Understanding Teachers</h3>
+                    <div class="content">
+                        <p>We also interviewed 5 math/physics teachers and 2 monitors at Squirrel AI to understand their
+                            needs, challenges, and thoughts on the current system.</p>
+                        <p>With the interview data, we created an experience map showing the process of teachers helping
+                            students to learn from MARS. With the experience map, we identified the following problems:
+                        </p>
+                        <ul>
+                            <li>Repetitive problems due to limited problem types may leave students to learn by rote.
+                            </li>
+                            <li>It’s difficult to manage and organize problems in the system.</li>
+                            <li>Students have a heavy workload because of the number of practice questions.</li>
+                            <li>Teachers and students both consider MARS as homework instead of a tool for review and
+                                metacognition.</li>
+                            <li>Teachers struggle to monitor students’ attitudes and understanding of problem-solving.
+                            </li>
+                        </ul>
+                    </div>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=ExperienceMap(Teacher)"></image>
+                    </figure>
+                    <h3 class="is-size-4 has-text-centered">Exploratory Data Analysis</h3>
+                    <div class="content">
+                        <p>We analyzed mistake labeling log data from 3 million events. Through the system-auto labeled
+                            data, we found out that the system default label system causes student’s cognitive overload,
+                            as there are: </p>
+                        <ul>
+                            <li>altogether 35 given labels to select</li>
+                            <li>at least 18 labels shown in the drop-down window</li>
+                        </ul>
+                    </div>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=DataAnalysisPic1AutoLabel"></image>
+                    </figure>
+                    <div class="content">Students’ self-labeling results show that students are lacking in MARS required
+                        meta-cognitive knowledge, as the most frequent labelings are “do not know” & “not my fault”.
+                        This implicated that students are not capable of analyzing their mistakes. Therefore, Students
+                        need scaffolding to help them develop MARS metacognitive level knowledge.</div>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=DataAnalysisPic1SelfLabel"></image>
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
-
-
-
+    <!--Research Insights-->
+    <section>
+        <div class="hero is-medium">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title has-text-centered">Research Insights</h2>
+                    <p class="content">The diagram below shows the relationship between the areas of improvement and our
+                        research evidence. Each dot represents that the corresponding insight is supported by evidence
+                        from that research category.</p>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=ResearchInsights"></image>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ideation-->
+    <section>
+        <div class="hero is-medium">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title has-text-centered">Ideation</h2>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=IdeationPic1(ProcessDocumentation)"></image>
+                    </figure>
+                    <div class="content">
+                        <p>From group brainstorming, building up difficulty & importance matrix, and speed dating with
+                            users (students), teachers, and clients, we finalized ideation paths towards prototyping.
+                        </p>
+                        <p>Based on the 5 insights generated from the research phase, we raised over 50 problems
+                            starting with “how might we, we come out with 34 initial ideas from these 50 “how might we”
+                            statements. With 41 initial ideas generated, we evaluated these ideas by their
+                            implementation difficulties and importance for our users. According to the Difficulty &
+                            Importance Matrix, we selected 14 ideas in the first quadrant for speed dating. After 2
+                            rounds of speed dating with 11 users of Squirrel AI system, we identified 5 concept
+                            directions for the conclusion of spring semester:
+                        </p>
+                        <ol>
+                            <li>Q&A channel for students and teachers to communicate with each other offline.</li>
+                            <li>An online assistant that helps students with problem-solving skills and finding relevant
+                                knowledge components without teachers’ help.</li>
+                            <li>Starred question set that gathers questions that students identify as important, system
+                                recommends and teachers recognize as important.</li>
+                            <li>Key knowledge component identification that helps students with more practice of
+                                important knowledge components and thus improve their metacognitive thinking.</li>
+                            <li>Pre-formatted problem sets for easy scanning that supports online study complement to
+                                offline study.</li>
+                        </ol>
+                        <p>With these 5 ideas, we generated lo-fi prototypes of the ideas that get most voted and
+                            discussed with our clients as well as the faculty and our mentor to decide on the final
+                            solution:</p>
+                    </div>
+                    <figure class="image is-16by9" style="margin-bottom: 2em">
+                        <image class="has-ratio" width="640" height="360"
+                            src="https://via.placeholder.com/640x360?text=IdeationPic2(LowFiPrototype)"></image>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-thrid"></div>
+            <div class="column is-one-thrid has-text-centered">
+                <p>&copy; 2020 Team Drey</p>
+                <a href="https://www.cmu.edu/">Carnegie Mellon University</a></br>
+                <a href="https://metals.hcii.cmu.edu/">METALS Program</a></br>
+                <a href="https://squirrelai.com/">Squirrel AI</a></br>
+            </div>
+            <div class="column is-one-thrid"></div>
+        </div>
+    </div>
+</footer>
 
 </html>
